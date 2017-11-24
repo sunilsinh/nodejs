@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Little test",
+  "main": "app.js",
+  "scripts": {
+    "test": "test comment"
+  },
+  "author": "sunil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

@@ -1,0 +1,25 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{background: skyblue; font-family: vardana;color: #fff; padding: 30px;}
+		p, li {text-align: center;}
+	</style>
+</head>
+<body>
+
+<h1>Welcome to the profile <%= person %></h1>
+<p><strong>AGE<%= data.age %></strong></p>
+<p><strong>AGE<%= data.job %></strong></p>
+<% include partials.ejs %>
+<h2>Hobbies</h2>
+<ul>
+	<% data.hobbies.forEach(function(item){ %>
+		<li> <%= item %></li>
+	<% }); %>
+
+</ul>
+
+</body>
+</html> 
