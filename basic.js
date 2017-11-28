@@ -27,8 +27,9 @@ SayHi();*/
 
 function callFunction(fun) {
 	fun();
-}
-callFunction(SayHi);*/
+}*/
+callFunction(SayHi);
 
 // Module and require
 
+console.log("Hello");
