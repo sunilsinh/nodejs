@@ -1,0 +1,22 @@
+{
+  "name": "crud-application",
+  "version": "1.0.0",
+  "description": "crud application with mongo db",
+  "main": "app.js",
+  "scripts": {
+    "test": "crud application"
+  },
+  "keywords": [
+    "crud",
+    "application",
+    "with",
+    "node",
+    "js"
+  ],
+  "author": "sunil singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  }
+}
